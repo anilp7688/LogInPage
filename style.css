@@ -1,0 +1,141 @@
+body{
+    background: url(background.png)
+    no-repeat center center fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div1{
+    width: 20rem;
+    background: rgba(0, 0, 0, 0.466);
+    border: 2rem solid rgb(114, 244, 248);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.div1 form{
+    text-align: center;
+}
+
+
+.div1 input[type="email"] , .div1 input[type="password"]{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border: 5px solid silver;
+    border-radius: 2rem;
+    transition: 0.25s;
+    outline: none;
+}
+
+.p1 a{
+    color: white;
+    text-align: start;
+}
+
+.p1{
+    text-transform: lowercase;
+    color: white;
+}
+.p2 a{
+    color: blue;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.p2{
+    text-transform: uppercase;
+    color: white;
+}
+
+.div1 input[type = "submit"]{
+    
+    width: 130px;
+    height: 40px;
+    border: 5px solid silver;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.div1 hr{
+    border: 10px solid rgb(114, 244, 248);
+    border-radius: 3%;
+}
+
+.div1 input[type="email"]:focus , .div1 input[type="password"]:focus {
+    width: 300px;
+    border-color: blue;
+}
+
+.div1 input[type = "submit"]:hover{
+    width: 150px;
+    background-color: blue;
+}
+
+.div1 h1{
+    color: white;
+}
+
+
+/* For Signup page*/
+
+.div2{
+    
+    width: 20rem;
+    background: rgba(0, 0, 0, 0.466);
+    border: 2rem solid rgb(114, 244, 248);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.div2 input[type="email"] , .div2 input[type="password"],.div2 input[type="number"] , .div2 input[type="text"]{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border: 5px solid silver;
+    border-radius: 2rem;
+    transition: 0.25s;
+    outline: none;
+}
+
+.div2 input[type="email"]:focus , .div2 input[type="password"]:focus , .div2 input[type="number"]:focus , .div2 input[type="text"]:focus {
+    width: 250px;
+    border-color: blue;
+}
+
+.div2 input[type ="submit"]{
+    
+    width: 130px;
+    height: 40px;
+    border: 5px solid silver;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.div2 input[type ="submit"]:hover{
+    width: 150px;
+    background-color: blue;
+}
+
+.p3{
+    font-size: 2rem;
+    text-transform: lowercase;
+    color: white;
+}
+.p4 a{
+    color: blue;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.p4{
+    text-transform: uppercase;
+    color: white;
+}
